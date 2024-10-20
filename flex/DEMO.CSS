@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root ::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    text-align: center;
+} 
+nav{
+    display: flex;
+    gap: 1.5rem;
+}
+a>button{
+    border: none;
+    font-size: larger;
+    background-color: whitesmoke;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(29, 239, 214);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 10px;
+   display: flex;
+   justify-content: end;
+   gap: 2rem;
+    padding: 15px;
+    width: 100vw;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100vh;
+}
+
+section>div{
+    padding-top: 40px;
+
+}
+.main-section{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.top-item{
+   
+    width: 90%;
+    padding: 27px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.bottom-item{
+   
+    width:90% ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 27px;
+    justify-content: center;
+    align-items: center;
+}
+.top-set{
+    display: flex;
+   
+    width: 70%;
+    gap: 1.5rem;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+.top-set > button{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+.home-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.bottom-set > button{
+    padding: 10px;
+    background-color: blue;
+    color: aqua;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+
+}
+.about-section{
+    width: 90%;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 30px;
+}
+.image-content{
+    width: 45%;
+
+}
+.image-content >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.desc-contatnt{
+    width: 45%;
+
+}
+.skil-section{
+  border: 1px solid black;
+  
+}
+
+@media screen and (min-width: 360)and(max-width:480){
+    header {
+        position: fixed;
+        top: 0;
+        right: 10px;
+        padding: 15px;
+        width: 100vw;
+        display: flex;
+  
+        gap: 2rem;
+      }
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      section > div {
+        padding-top: 40px;
+      }
+      .main-section {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+      }
+      .top-item {
+        width: 90%;
+        padding: 27px;
+        font-family: "Fascinate Inline", system-ui;
+        font-weight: bolder;
+        font-size: 70px;
+      }
+      .bottom-item {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 27px;
+        justify-content: center;
+        align-items: center;
+      }
+      .top-set {
+        width: 70%;
+        display: flex;
+        gap: 1rem;
+        padding: 10px;
+        justify-content: space-around;
+      }
+      .top-set > button {
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
+      }
+      .home-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .bottom-set > button {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+      }
+      .about-section {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 27px;
+      }
+      .image-content {
+        width: 45%;
+      }
+      .image-content > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .desc-content {
+        width: 45%;
+      }
+}
+    
+
+
+    
+
+    
+    

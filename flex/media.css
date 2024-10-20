@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu>li>a{
+    text-decoration: none;
+}
+.menu>li{
+    list-style-type: none;
+    border: 1px solid burlywood;
+    padding: 10px;
+    background-color:gold;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.header{
+    margin-top: 20px;
+}
+.home{
+    flex-grow: 2;
+    order: 4;
+}
+.about{
+    flex-grow: 1;
+    order: 1;
+}
+.contact{
+    flex-grow: 1;
+    order: 2;
+}
+.feedback{
+    flex-grow: 1;
+    order: 3;
+}
+.service{
+    flex-grow: 1;
+    order: 5;
+}
+@media screen and (max-width:960px) {
+    .menu{
+        display: none;
+    }
+    
+} 
+@media screen and4(min-width:961px) {
+    #menuIcon{
+        display: none;
+    }
+    
+}
+body{
+    background-image: url(./mojji.jpj.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
